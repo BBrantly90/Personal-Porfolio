@@ -69,3 +69,11 @@
     background-color: #808080;
     text-align: center;
 }
+/* All sections spacing */
+#about, #skills, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
