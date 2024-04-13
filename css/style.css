@@ -9,6 +9,12 @@
 .hero_title {
     font-size: 4.5rem;
 }
+.navbar-brand {
+    color: white;
+}
+.nav-link {
+    color: white;
+}
 .hero_desc {
     font-size: 2rem;
 }
@@ -19,4 +25,31 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+/* about section image */
+.imageAboutPage {
+    width: 100%;
+}
+/* skills section */
+.skillsText.card {
+    height: 280px;
+    cursor: pointer;
+}
+.skillsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .skillsIcon {
+    color: #008000;
+}
+.skillsText:hover {
+    border: 1px solid #008000;
+}
+/* background-color on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
 }
